@@ -19,6 +19,10 @@ img{
     width: 100%;
     text-align: center;
  }
+ .text:hover{
+     font-size: 4em;
+     opacity: 1;
+ }
  /*attelo telefona izmeram citu pareizaka izmera bildi*/
 @media screen and (max-width:768px){
     .phoneImg{
