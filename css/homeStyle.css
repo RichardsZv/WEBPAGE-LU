@@ -11,6 +11,7 @@ img{
 @media screen and (max-width:768px){
     .phoneImg{
         display: inline; 
+        height: 80vh;
     }
     .scrnImg{
         display: none;
