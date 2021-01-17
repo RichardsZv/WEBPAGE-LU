@@ -7,17 +7,6 @@ img{
 .phoneImg{
     display: none; 
 }
-/*attelo telefona izmeram citu pareizaka izmera bildi*/
-@media screen and (max-width:768px){
-    .phoneImg{
-        display: inline; 
-        height: 80vh;
-    }
-    .scrnImg{
-        display: none;
-    }
-}
-
  /* Caption text */
 .text {
     color: #F9FAFA;
@@ -30,6 +19,19 @@ img{
     width: 100%;
     text-align: center;
  }
+ /*attelo telefona izmeram citu pareizaka izmera bildi*/
+@media screen and (max-width:768px){
+    .phoneImg{
+        display: inline; 
+        height: 70vh;
+    }
+    .scrnImg{
+        display: none;
+    }
+    .text{
+        top:40%;
+    }
+}
 /* Fading animation */
 .fade {
     animation-name: fade;
