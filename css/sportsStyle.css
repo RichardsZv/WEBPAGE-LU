@@ -29,6 +29,10 @@
 #map h3{
     margin-bottom: 3vh; 
 }
+#map .myBtn{
+    
+    height: 5vh;
+}
 .container{
     position: relative;
     height: 85vh;
