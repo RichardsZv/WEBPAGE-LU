@@ -19,10 +19,10 @@ img{
     width: 100%;
     text-align: center;
  }
- .text:hover{
-     font-size: 4em;
-     opacity: 1;
- }
+.text:hover{
+    font-size: 4em;
+    opacity: 1;
+}
  /*attelo telefona izmeram citu pareizaka izmera bildi*/
 @media screen and (max-width:768px){
     .phoneImg{
@@ -35,17 +35,16 @@ img{
     .text{
         top:40%;
     }
+    .text:hover{
+        font-size: 3em;
+    }
 }
 /* Fading animation */
 .fade {
     animation-name: fade;
     animation-duration: 3s;
-    }
-    @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-    @keyframes fade {
-    from {opacity: .4}
+    } 
+@keyframes fade {
+    from {opacity: .5}
     to {opacity: 1}
 }

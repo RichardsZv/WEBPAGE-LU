@@ -3,19 +3,18 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;   
-  font-family: monospace;
+  font-family: monospace, Arial, Helvetica, sans-serif;
 }
 body{
-background-color: #2C2B2B;
+  background-color: #2C2B2B;
 }
-/* NAVBAR */
+/* NAVIGATION */
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
   background-color:#0F0F0F;
-  font-family: monospace;
   font-size: 1.5em;
 }
 .logo{
@@ -51,16 +50,16 @@ a{
 text-decoration: none;
 color: #F9FAFA;
 }
-/* RESPONSIVE */
+/* RESPONSIVE NAV */
 .burger{
   display: none;
   cursor: pointer;
 }
 .burger div{
-width:25px;
-height:2px;
-background-color:#878487;
-margin: 5px;
+  width:25px;
+  height:2px;
+  background-color:#878487;
+  margin: 5px;
 }
 @media screen and (max-width:1024px){
   .nav-links{
@@ -74,8 +73,8 @@ margin: 5px;
   .nav-links{
       position: fixed;
       right: 0px;
-      height: 92vh;
-      top: 8vh;
+      height: 100vh;
+      top: 8vh; 
       background-color: #0F0F0F;
       flex-direction: column;
       align-items: center;
@@ -88,6 +87,9 @@ margin: 5px;
   .nav-links li{
       opacity: 0;
   }
+  .nav-links li:nth-child(5){
+      padding-bottom: 20vh;
+  }
   .burger{
       display: block;
   }
@@ -95,7 +97,7 @@ margin: 5px;
 .nav-active{
   transform: translateX(0%);
 }
-/* Animation */
+/* Phone navigation Animation */
 @keyframes navLinkFade{
   from{
       opacity: 0;
@@ -109,42 +111,42 @@ margin: 5px;
 
 /* FOOTER*/
 .footer {
-font-family: monospace;
-float: left;
-bottom: 0;
-width: 100%;
-padding-top:5vh;
-padding-bottom:10vh;
-text-align: center;
-color:#747B89;
-background-color:#0F0F0F;
+  float: left;
+  bottom: 0;
+  width: 100%;
+  padding-top:5vh;
+  padding-bottom:10vh;
+  text-align: center;
+  color:#747B89;
+  background-color:#0F0F0F;
+  margin-top: -3px;
 }
 a{
-text-decoration: none;
-text-emphasis: none;    
+  text-decoration: none;
+  text-emphasis: none;    
 }
-.fa {
-padding: 20px;
-font-size: 2em;
-width: 50px;
-text-align: center;
-text-decoration: none;
+.fa{
+  padding: 20px;
+  font-size: 2em;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 .fa:hover {
-opacity: 0.7;
+  opacity: 0.7;
 }
 .fa-facebook {
-color: #F9FAFA; 
+  color: #F9FAFA; 
 }
 .fa-facebook:hover{
-color:blue
+  color:blue
 }
 .fa-instagram {
-color: #F9FAFA;
+  color: #F9FAFA;
 }
 .fa-instagram:hover {
-color: orange;
+  color: orange;
 }
 
-/* ABOUT PAGE */
+
 

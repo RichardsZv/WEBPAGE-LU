@@ -2,8 +2,8 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
-    font-family: monospace;
-  }
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
   /* MAIN CONTENT */
   .left-contents{
     width: 50%;
@@ -33,7 +33,7 @@
   
   /* ENTER BUTTON */
   .enter-btn{
-    text-align: center;
+      text-align: center;
   }
   .button {
       background-color:#F9FAFA; 
@@ -41,47 +41,48 @@
       padding: 16px 32px;
       display: inline-block;
       font-size: 1em;
-      transition-duration: 0.4s;
+      transition-duration: 0.7s;
       cursor: pointer;
       margin-top: 10%;
       opacity: 0.1;
     }
-    .button:hover{
+  .button:hover{
       background-color:#0F0F0F;
       color: #F9FAFA;
-    }
-    a{
+  }
+  a{
       text-decoration: none;
       text-emphasis: none;
       color: black;    
-    }
+  }
     
     /* SOCIAL MEDIA ICONS */
-    .media-btns{ 
+  .media-btns{ 
         margin-top: 20%;
         font-size: 4rem;
         text-align: center;
         margin-right:10px;
         opacity: 0.1;
-    }
-    .fa {
+  }
+  .fa {
       width: 50px;  
       text-decoration: none;  
-    }
-    .fa-facebook {
+  }
+  .fa-facebook {
       color: #F9FAFA;
-    }
-    .fa-facebook:hover{ 
+  }
+  .fa-facebook:hover{ 
       color:blue
-    }
-    .fa-instagram {
+  }
+  .fa-instagram {
       color: #F9FAFA;
-    }
-    .fa-instagram:hover {
+  }
+  .fa-instagram:hover {
       color: orange;
-    }
+  }
   
-    @media screen and (max-width:768px){ 
+  /* Media query for phone */
+  @media screen and (max-width:768px){ 
         .left-contents{
           width: 100%;
           text-align: center;
@@ -99,17 +100,6 @@
           width: 100%;
         }
     }
-    /* ANIMATIONS */
-    /* @keyframes left-boxFade{
-      from{
-          opacity: 0;
-          transform: translateX(50px);
-      }
-      to{
-          opacity: 1;
-          transform: translateX(0px);
-      }
-    } */
-  
+    
     
   
