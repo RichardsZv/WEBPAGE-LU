@@ -2,27 +2,27 @@
 var elements = document.getElementsByClassName("column");
 var elements2 = document.getElementsByClassName("row");
 var i;
-// Full-width images
+// One col
 function one() {
     for (i = 0; i < elements.length; i++) {
     elements[i].style.flex = "100%";
     elements2[i].style.padding="2px 500px"; 
   }
 };
-// Two images 
+// Two cols
 function two() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.flex = "50%";
     elements2[i].style.padding="0 100px"; 
   }
 };
-// Four images 
+// Four cols
 function four() {
   for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "25%"; 
     elements[i].style.flex = "25%"; 
   }
 };
+
 
 // BUTTON ACTIVE CLASS
 var header = document.getElementById("myHeader");
@@ -35,7 +35,7 @@ for (var i = 0; i < btns.length; i++) {
   });
 };
 
-// Get the modal
+// MODAL
 var modal = document.getElementById('myModal');
 var images= document.getElementsByClassName('myImg');
 var modalImg = document.getElementById("img01");
@@ -43,13 +43,13 @@ var modalImg = document.getElementById("img01");
 for (var j = 0; j < images.length; j++){
   var img = images[j];
   img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
+    modal.style.display = "block"; 
+    modalImg.src = this.src; 
   }
 }
-// Get the <span> element that closes the modal
+// <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-// When the user clicks on <span> (x), close the modal
+// close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
