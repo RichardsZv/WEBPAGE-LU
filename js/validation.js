@@ -17,7 +17,6 @@ function validateForm() {
     }
     alert("ziņa nosūtīta");
     return true;
-   
 }
 
 
